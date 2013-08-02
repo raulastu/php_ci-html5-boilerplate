@@ -41,6 +41,10 @@
 // $route['default_controller'] = "welcome";
 // $route['404_override'] = '';
 
+$route['boarddata'] = "boarddata/getall";
+$route['boarddata/getall'] = 'boarddata/getall';
+$route['boarddata/(.+)'] = 'boarddata/$1';
+$route['boarddata/(.+)/(.+)'] = 'boarddata/$1/$2';
 $route['fblogin/dologin'] = 'fblogin/dologin';
 $route['fblogin'] = 'fblogin';
 $route['user/(:any)'] = 'user/view/$1';

@@ -14,7 +14,7 @@ class Pages extends CI_Controller {
 			// $this->load->view('templates/footer', $data);
 			// show_404();
 		}else{
-			$this->load->view('pages/'.$page, $data);
+			$this->load->view('pages/'.$page);
 		}
 	}
 }

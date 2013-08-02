@@ -19,7 +19,7 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     </head>
-    <body style="background: url(https://abs.twimg.com/a/1367955655/t1/img/front_page/cricket@2x.jpg) no-repeat center center fixed; 
+    <body style="background: url(https://abs.twimg.com/a/1367955655/t1/img/front_page/cricket@2x.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -56,13 +56,13 @@
                   <button class="btn btn-large btn-custom-darken"><img src="img/fb-f.png"/></button>
                   <button class="btn btn-large btn-custom-lighten">Sign up with Facebook</button>
                 </div>
-                
+
 
               </div>
             </div>
 
     </div>
-      
+
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>

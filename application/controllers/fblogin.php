@@ -5,7 +5,7 @@ class FBLogin extends CI_Controller{
 	public function __construct()
 	{
 		parent::__construct();
-		$this->load->model('FBUserModel');
+		$this->load->model('Topic');
 
         $CI = & get_instance();
         $CI->config->load("facebook",TRUE);

@@ -1,4 +1,4 @@
-<?php
+a<?php
 
 class FBUserModel extends CI_Model{
 
@@ -38,7 +38,7 @@ class FBUserModel extends CI_Model{
 		if($query->num_rows()==0){
 			$insertSQL = "INSERT INTO fb_hometowns (hometown_id, name) VALUES ('?','?')";
 			$query = $this->db->query($insertSQL, array($fbHometown['id'], $fbHometown['home']));
-			runQuery($insert);
+//			runQuery($insert);
 		}
 	}
 
